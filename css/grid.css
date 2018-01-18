@@ -1,0 +1,168 @@
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.main-container-full {
+    width: 100% !important;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0 auto;     
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columns-1 {
+    float: left;
+    width: 8.333333333333334%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.columns-2 {
+    float: left;
+    width: 16.666666666666668%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.columns-3 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.columns-4 {
+    float: left;
+    width: 33.333333333333336%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.columns-5 {
+    float: left;
+    width: 41.66666666666667%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.columns-6 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.columns-7 {
+    float: left;
+    width: 58.333333333333336%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.columns-8 {
+    float: left;
+    width: 66.66666666666667%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.columns-9 {
+    float: left;
+    width: 75%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.columns-10 {
+    float: left;
+    width: 83.33333333333334%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.columns-11 {
+    float: left;
+    width: 91.66666666666667%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.columns-12 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    min-height: 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 990px){
+
+    .only-desktop {
+        display: none;
+    }
+
+    .columns-1,
+    .columns-2,
+    .columns-3,
+    .columns-4,
+    .columns-5,
+    .columns-6,
+    .columns-7,
+    .columns-8,
+    .columns-9,
+    .columns-10,
+    .columns-11,
+    .columns-12 {
+        width: 100%;
+        float: none;
+        /* margin-bottom: 15px; */
+    }
+}

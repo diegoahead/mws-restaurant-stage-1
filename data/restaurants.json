@@ -5,6 +5,7 @@
     "neighborhood": "Manhattan",
     "photograph": "1.jpg",
     "address": "171 E Broadway, New York, NY 10002",
+    "alt_text_img": "A restaurant full of people. It seems that it is a place to go with the family. People dressed in a casual way.",
     "latlng": {
       "lat": 40.713829,
       "lng": -73.989667
@@ -44,6 +45,7 @@
     "neighborhood": "Brooklyn",
     "photograph": "2.jpg",
     "address": "919 Fulton St, Brooklyn, NY 11238",
+    "alt_text_img": "A margarita pizza in the very center, covering almost the entire picture.",
     "latlng": {
       "lat": 40.683555,
       "lng": -73.966393
@@ -83,6 +85,7 @@
     "neighborhood": "Manhattan",
     "photograph": "3.jpg",
     "address": "1 E 32nd St, New York, NY 10016",
+    "alt_text_img": "A very clean place. Chairs in order in a very asian style. A shiny and clean room.",
     "latlng": {
       "lat": 40.747143,
       "lng": -73.985414
@@ -122,6 +125,7 @@
     "neighborhood": "Manhattan",
     "photograph": "4.jpg",
     "address": "205 E Houston St, New York, NY 10002",
+    "alt_text_img": "A restaurant in a corner. Red Led letters with the name of the restaurant.",
     "latlng": {
       "lat": 40.722216,
       "lng": -73.987501
@@ -161,6 +165,7 @@
     "neighborhood": "Brooklyn",
     "photograph": "5.jpg",
     "address": "261 Moore St, Brooklyn, NY 11206",
+    "alt_text_img": "A place full of people sitting at the tables. At the end you see the counter and the staff, dressed in white, working.",
     "latlng": {
       "lat": 40.705089,
       "lng": -73.933585
@@ -200,6 +205,7 @@
     "neighborhood": "Brooklyn",
     "photograph": "6.jpg",
     "address": "454 Van Brunt St, Brooklyn, NY 11231",
+    "alt_text_img": "A restaurant with a wooden roof, wooden floor, wooden walls and wooden tables. A southern style. And you can see a flag of the United States painted on one of the walls at the end of the establishment. It is full of families and people eating, and a line of people ordering.",
     "latlng": {
       "lat": 40.674925,
       "lng": -74.016162
@@ -239,6 +245,7 @@
     "neighborhood": "Manhattan",
     "photograph": "7.jpg",
     "address": "430 E 9th St, New York, NY 10009",
+    "alt_text_img": "A black and white picture. A downtown burgers restaurant seen from the outside. Only a big glass window and the entrance door. The place seems to be tiny and casual.",
     "latlng": {
       "lat": 40.727397,
       "lng": -73.983645
@@ -278,6 +285,7 @@
     "neighborhood": "Manhattan",
     "photograph": "8.jpg",
     "address": "131 Sullivan St, New York, NY 10012",
+    "alt_text_img": "There's led letters, it reads, The Dutch, which is the name of the restaurant. The background of the letter is a dark blue. Next to the building is a pink wall from another building.",
     "latlng": {
       "lat": 40.726584,
       "lng": -74.002082
@@ -317,6 +325,7 @@
     "neighborhood": "Queens",
     "photograph": "9.jpg",
     "address": "1209 Jackson Ave, Queens, NY 11101",
+    "alt_text_img": "A black and white image. Mostly Asian customers eating, and in the very middle of the picture is an Asian lady using her cellphone after eating, we can see how the light of the cell phone reflects on her face. The tables are full of glasses, dishes, so on so forth.",
     "latlng": {
       "lat": 40.743797,
       "lng": -73.950652
@@ -356,6 +365,7 @@
     "neighborhood": "Queens",
     "photograph": "10.jpg",
     "address": "5-48 49th Ave, Queens, NY 11101",
+    "alt_text_img": "A shiny and minimalist place. The counter seems to be made of aluminum. Everything looks clean and modern. The chairs and the tables are white.",
     "latlng": {
       "lat": 40.743394,
       "lng": -73.954235
