@@ -7,9 +7,13 @@ class DBHelper {
    * Database URL.
    * Change this to restaurants.json file location on your server.
    */
+
+
   static get DATABASE_URL() {
-    const port = 8080 // Change this to your server port
-    return `https://localhost:${port}/data/restaurants.json`;
+    const port = 8080; // Change this to your server port
+    const localUrl = `http://localhost:${port}/data/restaurants.json`;
+    const remoteUrl = `https://diegoahead.github.io/data/restaurants.json`;
+    return remoteUrl;
   }
 
   /**
