@@ -12,7 +12,7 @@ class DBHelper {
   static get DATABASE_URL() {
     const port = 8080; // Change this to your server port
     const localUrl = `http://localhost:${port}/data/restaurants.json`;
-    const remoteUrl = `https://diegoahead.github.io/data/restaurants.json`;
+    const remoteUrl = `https://diegoahead.github.io/mws-restaurant-stage-1/data/restaurants.json`;
     return remoteUrl;
   }
 
