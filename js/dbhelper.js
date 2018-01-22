@@ -13,7 +13,7 @@ class DBHelper {
     const port = 8080; // Change this to your server port
     const localUrl = `http://localhost:${port}/data/restaurants.json`;
     const remoteUrl = `https://diegoahead.github.io/mws-restaurant-stage-1/data/restaurants.json`;
-    return remoteUrl;
+    return localUrl;
   }
 
   /**
@@ -154,7 +154,7 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`/mws-restaurant-stage-1/img/${restaurant.photograph}`);
+    return (`/img/${restaurant.photograph}`);
   }
 
   /**

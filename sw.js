@@ -1,25 +1,25 @@
-var staticCacheName = 'restaurant-static-v5';
-
+var staticCacheName = 'restaurant-static-v8';
+//
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(staticCacheName).then(function(cache) {
       return cache.addAll([
-        '/mws-restaurant-stage-1/js/dbhelper.js',
-        '/mws-restaurant-stage-1/js/main.js',
-        '/mws-restaurant-stage-1/js/restaurant_info.js',
-        '/mws-restaurant-stage-1/css/grid.css',
-        '/mws-restaurant-stage-1/css/styles.css',
-        '/mws-restaurant-stage-1/img/1.jpg',
-        '/mws-restaurant-stage-1/img/2.jpg',
-        '/mws-restaurant-stage-1/img/3.jpg',
-        '/mws-restaurant-stage-1/img/4.jpg',
-        '/mws-restaurant-stage-1/img/5.jpg',
-        '/mws-restaurant-stage-1/img/6.jpg',
-        '/mws-restaurant-stage-1/img/7.jpg',
-        '/mws-restaurant-stage-1/img/8.jpg',
-        '/mws-restaurant-stage-1/img/9.jpg',
-        '/mws-restaurant-stage-1/img/10.jpg',
-        '/mws-restaurant-stage-1/img/logo_top.svg'
+        '/js/dbhelper.js',
+        '/js/main.js',
+        '/js/restaurant_info.js',
+        '/css/grid.css',
+        '/css/styles.css',
+        '/img/1.jpg',
+        '/img/2.jpg',
+        '/img/3.jpg',
+        '/img/4.jpg',
+        '/img/5.jpg',
+        '/img/6.jpg',
+        '/img/7.jpg',
+        '/img/8.jpg',
+        '/img/9.jpg',
+        '/img/10.jpg',
+        '/img/logo_top.svg'
       ]);
     })
   );

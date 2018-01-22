@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 registerServiceWorker = () => {
   if (!navigator.serviceWorker) return;
-  navigator.serviceWorker.register('/mws-restaurant-stage-1/sw.js').then(() => {
+  navigator.serviceWorker.register('/sw.js').then(() => {
     console.log("Register worker successful!!");
   }).catch(() => {
-      console.log("Register worker successful!");
+      console.log("Register worker failed!");
   })
 }
 
@@ -153,15 +153,13 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
-  image.setAttribute("alt", DBHelper.imageAltForRestaurant(restaurant));
+  image.setAttribute("alt", "The restaurant's name is " + restaurant.name + ". " + DBHelper.imageAltForRestaurant(restaurant));
   innerDiv.append(image);
 
   const nameHeadingContainer = document.createElement('h3');
   const name = document.createElement('a');
-  name.innerHTML = restaurant.name;
-  name.href = DBHelper.urlForRestaurant(restaurant);
+  nameHeadingContainer.innerHTML = restaurant.name;
   nameHeadingContainer.className = 'restaurant-name-heading';
-  nameHeadingContainer.append(name);
   innerDiv.append(nameHeadingContainer);
 
   const neighborhood = document.createElement('p');

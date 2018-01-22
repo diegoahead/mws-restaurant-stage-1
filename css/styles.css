@@ -53,7 +53,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-transform: uppercase;
 }
 /* ====================== Navigation ====================== */
-nav {
+.main-nav {
   width: 100%;
   height: 80px;
   background-color: #252831;
@@ -61,54 +61,58 @@ nav {
   display: table;
   padding: 10px;
 }
-nav h1 {
+.main-nav h1 {
   margin: auto;
   display: table-cell;
   vertical-align: middle;
 }
-nav h1 a {
+.main-nav h1 a {
   color: #fff;
   font-size: 14pt;
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
-nav .restauran-reviews-logo {
+.main-nav .restauran-reviews-logo {
   display: block;
   width: 34px;
   vertical-align: middle;
   margin: 0 auto 5px auto;
 }
-#breadcrumb {
+
+.breadcrumb {
+  width: 50%;
+}
+
+.breadcrumb ol {
     padding: 10px 40px 16px;
     list-style: none;
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: calc(50% - 80px);
     border-bottom: 1px solid #e1e1e1;
 }
 
 /* Display list items side by side */
-#breadcrumb li {
+.breadcrumb ol li {
     display: inline;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
-#breadcrumb li+li:before {
+.breadcrumb ol li+li:before {
     padding: 8px;
     color: black;
     content: "/\00a0";
 }
 
 /* Add a color to all links inside the list */
-#breadcrumb li a {
+.breadcrumb ol li a {
     color: #0275d8;
     text-decoration: none;
 }
 
 /* Add a color on mouse-over */
-#breadcrumb li a:hover {
+.breadcrumb ol li a:hover {
     color: #01447e;
     text-decoration: underline;
 }
@@ -268,7 +272,7 @@ nav .restauran-reviews-logo {
 #reviews-container {
   padding: 30px 40px 80px;
 }
-#reviews-container h2 {
+#reviews-container h3 {
   color: #f58500;
   font-size: 24pt;
   font-weight: 300;
@@ -336,11 +340,11 @@ nav .restauran-reviews-logo {
   pointer-events:none;
 }
 
-#restaurants-list article .restaurant-name-heading > a {
+#restaurants-list article .restaurant-name-heading {
   background-color: transparent;
   color: orange;
-  font-size: inherit;
-  padding: 0;
+  font-size: 22px;
+  padding: 12px 0 0 0;
   font-weight: 100;
   border-bottom: 0;
 }
@@ -382,6 +386,12 @@ nav .restauran-reviews-logo {
     padding: 86px 40px 70px;
   }
 
+}
+
+@media screen and (max-width: 990px) {
+  .breadcrumb {
+    width: 100%;
+  }
 }
 
 

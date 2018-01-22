@@ -45,7 +45,7 @@
     "neighborhood": "Brooklyn",
     "photograph": "2.jpg",
     "address": "919 Fulton St, Brooklyn, NY 11238",
-    "alt_text_img": "A margarita pizza in the very center, covering almost the entire picture.",
+    "alt_text_img": "A margarita pizza in the very center, covering almost the entire picture. A pizza Restaurant.",
     "latlng": {
       "lat": 40.683555,
       "lng": -73.966393
@@ -85,7 +85,7 @@
     "neighborhood": "Manhattan",
     "photograph": "3.jpg",
     "address": "1 E 32nd St, New York, NY 10016",
-    "alt_text_img": "A very clean place. Chairs in order in a very asian style. A shiny and clean room.",
+    "alt_text_img": "A very clean restaurant. Chairs in order in a very asian style. A shiny and clean room.",
     "latlng": {
       "lat": 40.747143,
       "lng": -73.985414
@@ -125,7 +125,7 @@
     "neighborhood": "Manhattan",
     "photograph": "4.jpg",
     "address": "205 E Houston St, New York, NY 10002",
-    "alt_text_img": "A restaurant in a corner. Red Led letters with the name of the restaurant.",
+    "alt_text_img": "A restaurant located in a corner. Red Led letters with the name of the restaurant.",
     "latlng": {
       "lat": 40.722216,
       "lng": -73.987501
@@ -165,7 +165,7 @@
     "neighborhood": "Brooklyn",
     "photograph": "5.jpg",
     "address": "261 Moore St, Brooklyn, NY 11206",
-    "alt_text_img": "A place full of people sitting at the tables. At the end you see the counter and the staff, dressed in white, working.",
+    "alt_text_img": "A restaurant full of people sitting at the tables. At the end you see the counter and the staff, dressed in white, working.",
     "latlng": {
       "lat": 40.705089,
       "lng": -73.933585
@@ -245,7 +245,7 @@
     "neighborhood": "Manhattan",
     "photograph": "7.jpg",
     "address": "430 E 9th St, New York, NY 10009",
-    "alt_text_img": "A black and white picture. A downtown burgers restaurant seen from the outside. Only a big glass window and the entrance door. The place seems to be tiny and casual.",
+    "alt_text_img": "A black and white picture. A downtown burgers restaurant seen from the outside. Only a big glass window and the entrance door. The restaurant seems to be tiny and casual.",
     "latlng": {
       "lat": 40.727397,
       "lng": -73.983645
@@ -325,7 +325,7 @@
     "neighborhood": "Queens",
     "photograph": "9.jpg",
     "address": "1209 Jackson Ave, Queens, NY 11101",
-    "alt_text_img": "A black and white image. Mostly Asian customers eating, and in the very middle of the picture is an Asian lady using her cellphone after eating, we can see how the light of the cell phone reflects on her face. The tables are full of glasses, dishes, so on so forth.",
+    "alt_text_img": "A black and white picture of the restaurant. Mostly Asian customers eating, and in the very middle of the picture is an Asian lady using her cellphone after eating, we can see how the light of the cell phone reflects on her face. The tables are full of glasses, dishes, so on so forth.",
     "latlng": {
       "lat": 40.743797,
       "lng": -73.950652
@@ -365,7 +365,7 @@
     "neighborhood": "Queens",
     "photograph": "10.jpg",
     "address": "5-48 49th Ave, Queens, NY 11101",
-    "alt_text_img": "A shiny and minimalist place. The counter seems to be made of aluminum. Everything looks clean and modern. The chairs and the tables are white.",
+    "alt_text_img": "A shiny and minimalist restaurant. The counter seems to be made of aluminum. Everything looks clean and modern. The chairs and the tables are white.",
     "latlng": {
       "lat": 40.743394,
       "lng": -73.954235
